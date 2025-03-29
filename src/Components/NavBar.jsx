@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FaLinkedin, FaInstagramSquare, FaTimes } from "react-icons/fa";
-import { FaSquareFacebook } from "react-icons/fa6";
+import { FaFacebookSquare } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
 import Logo from "../images/avant_care.png";
 import { TfiMenu } from "react-icons/tfi";
@@ -79,7 +79,7 @@ const NavBar = () => {
             <p className="text-white">info@avantcare.net</p>
           </div>
           <div className="flex flex-row items-center justify-center md:gap-5 gap-4">
-            <FaSquareFacebook size={30} className="text-white cursor-pointer hover:text-[rgb(255,186,90)] hover:bg-white hover:rounded-md" />
+            <FaFacebookSquare size={30} className="text-white cursor-pointer hover:text-[rgb(255,186,90)] hover:bg-white hover:rounded-md" />
             <FaLinkedin size={30} className="text-white cursor-pointer hover:text-[rgb(255,186,90)] hover:bg-white hover:rounded-md" />
             <FaInstagramSquare size={30} className="text-white cursor-pointer hover:text-[rgb(255,186,90)] hover:bg-white hover:rounded-md" />
           </div>
